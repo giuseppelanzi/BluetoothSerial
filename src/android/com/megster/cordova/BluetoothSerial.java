@@ -577,7 +577,7 @@ public class BluetoothSerial extends CordovaPlugin {
                 pluginResultMessage = "Fine location permission is granted.";
                 break;
             case CHECK_PERMISSIONS_REQ_CODE_ACCESS_COARSE_LOCATION:
-                logMessage = "User *rejected* coarse location permission";
+                logMessage = "User *granted* coarse location permission";
                 pluginResultMessage = "Coarse location permission is granted.";
                 break;
         }
